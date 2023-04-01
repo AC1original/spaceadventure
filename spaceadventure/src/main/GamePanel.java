@@ -15,7 +15,7 @@ import java.io.File;
 import java.io.IOException;
 
 public class GamePanel extends JPanel {
-    private int TARGET_FPS = 60;
+    private int TARGET_FPS = 50;
     private GameState gameState = new GameState(this);
     private JFrame jFrame = new JFrame();
     private Player player = new Player(this);
